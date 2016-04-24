@@ -3,6 +3,6 @@
 
 forge "https://forgeapi.puppetlabs.com"
 
-mod 'puppetlabs-ntp',    :latest
-mod 'puppetlabs-apt',    :latest
-mod 'puppetlabs-stdlib', :latest
+mod 'puppetlabs-ntp',    '4.1.2'
+mod 'puppetlabs-apt',    '2.2.2'
+mod 'puppetlabs-stdlib', '4.11.0'
