@@ -22,4 +22,3 @@ mod 'nfsclient',
 mod 'nfsserver',
   :git => 'scottylogan/muppet-nfsserver.git',
   :tag => '0.1.0'
-
