@@ -9,7 +9,7 @@ mod 'puppetlabs-stdlib', '4.11.0'
 
 mod 'base',
   :git => 'https://github.com/scottylogan/muppet-base.git',
-  :tag => '0.1.5'
+  :tag => '0.1.6'
 
 mod 'pi',
   :git => 'https://github.com/scottylogan/muppet-pi.git',
@@ -17,7 +17,7 @@ mod 'pi',
 
 mod 'pibuild',
   :git => 'https://github.com/scottylogan/muppet-pibuild.git',
-  :tag => '0.1.2'
+  :tag => '0.1.3'
 
 mod 'nfsclient',
   :git => 'https://github.com/scottylogan/muppet-nfsclient.git',
