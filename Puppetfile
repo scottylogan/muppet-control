@@ -5,7 +5,7 @@ forge "https://forgeapi.puppetlabs.com"
 
 mod 'base',
   :git => 'scottylogan/muppet-base.git',
-  :tag => '0.1.2'
+  :tag => '0.1.3'
 
 mod 'pi',
   :git => 'scottylogan/muppet-pi.git',
