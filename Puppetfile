@@ -3,13 +3,22 @@
 
 forge "https://forgeapi.puppetlabs.com"
 
-mod 'puppetlabs-ntp',    '4.1.2'
-mod 'puppetlabs-apt',    '2.2.2'
-mod 'puppetlabs-stdlib', '4.11.0'
-mod 'muppet',
-  :git => 'git@gitlab.com:muppets/puppet-muppet.git',
+mod 'base',
+  :git => 'scottylogan/muppet-base.git',
+  :tag => '0.1.2'
+
+mod 'pi',
+  :git => 'scottylogan/muppet-pi.git',
   :tag => '0.1.1'
 
-mod 'muppet_pi',
-  :git => 'git@gitlab.com:muppets/puppet-muppet_pi.git',
+mod 'pibuild',
+  :git => 'scottylogan/muppet-pibuild.git',
+  :tag => '0.1.0'
+
+mod 'nfsclient',
+  :git => 'scottylogan/muppet-nfsclient.git',
+  :tag => '0.1.0'
+
+mod 'nfsserver',
+  :git => 'scottylogan/muppet-nfsserver.git',
   :tag => '0.1.0'
