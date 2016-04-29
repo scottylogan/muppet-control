@@ -17,7 +17,7 @@ mod 'pi',
 
 mod 'pibuild',
   :git => 'https://github.com/scottylogan/muppet-pibuild.git',
-  :tag => '0.1.0'
+  :tag => '0.1.1'
 
 mod 'nfsclient',
   :git => 'https://github.com/scottylogan/muppet-nfsclient.git',
