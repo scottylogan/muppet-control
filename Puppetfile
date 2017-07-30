@@ -3,13 +3,12 @@
 
 forge "https://forgeapi.puppetlabs.com"
 
-mod 'puppetlabs-ntp',    '4.1.2'
-mod 'puppetlabs-apt',    '2.2.2'
-mod 'puppetlabs-stdlib', '4.11.0'
+mod 'puppetlabs-ntp',    '6.20'
+mod 'puppetlabs-apt',    '4.1.0'
 
 mod 'base',
   :git => 'https://github.com/scottylogan/muppet-base.git',
-  :tag => '0.1.5'
+  :tag => '0.3.1'
 
 mod 'pi',
   :git => 'https://github.com/scottylogan/muppet-pi.git',
